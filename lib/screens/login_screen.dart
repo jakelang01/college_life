@@ -18,15 +18,9 @@ class _LogInScreen extends State<LogInScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Header'),
+          title: Text('Login'),
           centerTitle: true,
         ),
-        body: Padding(
-            padding: const EdgeInsets.all(8),
-            child: SingleChildScrollView(
-
-            )
-        )
     );
   }
 
