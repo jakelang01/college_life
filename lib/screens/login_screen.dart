@@ -17,16 +17,16 @@ class _LogInScreen extends State<LogInScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Header'),
-        centerTitle: true,
-      ),
-      body: Padding(
-        padding: const EdgeInsets.all(8),
-        child: SingleChildScrollView(
+        appBar: AppBar(
+          title: Text('Header'),
+          centerTitle: true,
+        ),
+        body: Padding(
+            padding: const EdgeInsets.all(8),
+            child: SingleChildScrollView(
 
+            )
         )
-      )
     );
   }
 

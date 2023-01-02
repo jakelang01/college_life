@@ -52,20 +52,20 @@ class HamburgerDir extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      child: ListView(
-        children: [
-          ListTile(
-            title: Text('Login'),
-            onTap: () {
-              Navigator.of(context).push(
-                MaterialPageRoute(
-                  builder: (BuildContext context) {
-                    return LogInScreen();
-                  }));
-            }
-          ),
-        ]
-      )
+        child: ListView(
+            children: [
+              ListTile(
+                  title: Text('Login'),
+                  onTap: () {
+                    Navigator.of(context).push(
+                        MaterialPageRoute(
+                            builder: (BuildContext context) {
+                              return LogInScreen();
+                            }));
+                  }
+              ),
+            ]
+        )
     );
   }
 }
