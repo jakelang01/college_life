@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:college_life/screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,4 +49,23 @@ class _MyHomePageState extends State<MyHomePage> {
 
 class HamburgerDir extends StatelessWidget {
 
+  @override
+  Widget build(BuildContext context) {
+    return Drawer(
+      child: ListView(
+        children: [
+          ListTile(
+            title: Text('Login'),
+            onTap: () {
+              Navigator.of(context).push(
+                MaterialPageRoute(
+                  builder: (BuildContext context) {
+                    return LogInScreen();
+                  }));
+            }
+          ),
+        ]
+      )
+    );
+  }
 }

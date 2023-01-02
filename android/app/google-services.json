@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "700547720665",
+    "project_id": "collegelife-82e5c",
+    "storage_bucket": "collegelife-82e5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700547720665:android:31471247e51f1a174f25c8",
+        "android_client_info": {
+          "package_name": "com.example.college_life"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700547720665-docg16470inskahmmunj1jen8augna93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.college_life",
+            "certificate_hash": "89eb311f7420873da652358c5aa0106c9ddf7bd5"
+          }
+        },
+        {
+          "client_id": "700547720665-847v10b1cqnii881iftka7355be0tfkf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNvt6Tn_SYrJ6NuiJAF27TxNjmk1p7F1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700547720665-847v10b1cqnii881iftka7355be0tfkf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
