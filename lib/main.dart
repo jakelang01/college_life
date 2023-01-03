@@ -73,10 +73,13 @@ BottomNavigationBar navBar() {
           icon: Icon(Icons.add_a_photo),
           label: 'add photo',
         ),
+        BottomNavigationBarItem(
+          icon: Icon(Icons.add_a_photo),
+          label: 'add photo',
+        ),
       ]
   );
 }
-
 
 class HamburgerDir extends StatelessWidget {
 
